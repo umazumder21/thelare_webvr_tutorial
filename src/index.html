@@ -5,8 +5,19 @@
     <title>WebVR Example</title>
   </head>
 
+  <script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
   <body>
     Hello World!!
+    <div id="vrview"></div>
+    <script>
+      window.addEventListener('load', onVrViewLoad)
+        function onVrViewLoad() {
+          var vrView = new VRView.Player('#vrview', {
+            image: 'http://media.mnn.com/assets/images/2013/02/grumpycat.jpg',
+            is_stereo: false
+        });
+      }
+    </script>
   </body>
 
 </html>
