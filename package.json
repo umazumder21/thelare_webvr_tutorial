@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.html",
   "eslintConfig": {
-        "env": {
-            "browser": true,
-            "node": true
-        }
-    },
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "scripts": {
     "eslint": "eslint",
     "test": "npm run eslint",
