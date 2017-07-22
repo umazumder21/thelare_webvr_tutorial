@@ -1,10 +1,6 @@
-If you're using nvm, nvm install; nvm use
+Serve your public directory using Python!
 
-To start:
+make serve
 
-npm install;
-npm start
-
-
-webvr user docs
+webvr main user docs
 https://developers.google.com/vr/concepts/vrview-web

@@ -21,9 +21,7 @@
     "url": "https://github.com/jsala1990/thelare_webvr_tutorial/issues"
   },
   "homepage": "https://github.com/jsala1990/thelare_webvr_tutorial#readme",
-  "dependencies": {
-    "express": "^4.15.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-config-google": "^0.8.0"
