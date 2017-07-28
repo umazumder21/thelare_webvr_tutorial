@@ -49,6 +49,40 @@ go to: https://www.w3schools.com/html/html_elements.asp for more examples
 `var variableName = "foo"`  strings surrounded by quote
 
 ``` javascript
+var variableName = {
+  key: "stringValue",
+  firstName: "Jesus",
+  lastName: "nunya"
+}; // {} think of them as dictionaries (key/value pairs)
+
+variableName['firstName'] // Jesus
+variableName['lastName'] // nunya
+
+```
+
+
+``` javascript
+// define functionName with no parameters,
+var functionName = function() {
+  return "someValue";
+};
+
+// call functionName
+functionName(); // returns 'someValue'
+```
+
+``` javascript
+// define functionName with 2 parameters
+var functionName = function(parameter1, parameter2) {
+  return "bat" + parameter1 + parameter2;
+};
+
+// call functionName with 'man' and 'thing'
+functionName("man", "thing"); // returns 'batmanthing'
+```
+function, method(parameter1, parameter 2) {}
+
+``` javascript
 var variableName = function () {
   console.log("Where is this printed out?");
   alert("What is a pop up");
@@ -57,8 +91,8 @@ var variableName = function () {
 
 ``` javascript
 var variableName = new VRView.Player('#class-name-for-element', {
-  width: '100%',
-  height: '100%'
+  width: "100%",
+  height: "100%"
 });
 ```
 Call a function on a HTML element with id "class-name-for-element"
