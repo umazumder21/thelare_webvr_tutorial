@@ -1,18 +1,12 @@
 ## Start - 15 minutes - Danny house rules
   - stay within kitchen
-  - show where restrooms are
-  - tell kids what drinks they're allowed to have
-  - introduce trainers (college track, current position, favorite vacation spot)
+  - reminder where restrooms are
+  - pair programming (we're going to be working in pairs, one person is on keyboard, the other is giving suggestions and actively listening/talking)
+  - reminders: ask QUESTIONS, what are pomodoros again?
 
-  - things to note:
-    * pair programming (we're going to be working in pairs, one person is on keyboard, the other is giving suggestions and actively listening/talking)
-    * here to learn (ask question, we're not in school)
-    * no phones during sessions (unless otherwise stated)
-    * introduce pomodoros
-      * 25 minute sessions, 5 minute breaks (Danny will act as time keeper)
-      * during breaks, walk around, stretch legs, check phones, USE THE RESTROOM
+  - lotería, Danny will pull out and define 3 terms right after the start of each session
 
-  - Introduce bingo, Danny will pull out and define 3 terms right after the start of each session
+  - between each session coaches should get on the same page about pacing (Sai is ahead of me 0_0)
 
 ## Session 1 - Introduce Terminal
   - introduce home (ls, cd Desktop)

@@ -1,11 +1,10 @@
 Serve your public directory using Python!
 
-make serve
+useful links:
+  webvr user docs
+  https://developers.google.com/vr/concepts/vrview-web
 
-webvr user docs
-https://developers.google.com/vr/concepts/vrview-web
 
-
-aspect ratio (2x1)
-
-4096 x 2048
+what makes a good photo:
+  aspect ratio (2x1)
+  4096 x 2048
