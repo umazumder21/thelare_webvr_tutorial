@@ -1,49 +1,64 @@
-Shell Commands
+### Key bindings
 
-ls - list files
-mkdir ${dirname}- make directory
-rmdir ${dirname} - remove directory
-touch ${filename}- create file
-rm ${filename}- remove file
-pwd - print current path
-open ${filename} (opens based on extension, html will be opened in the browser)
-. - current location
-.. - one leve up
-executables
-cd ${dirname}- change directory
+`cmd + space` open spotlight
 
-HTML
+`cmd + tab` switch between apps
 
-<tag> </tag> - Syntax to add elements to a HTML page
+`cmd + T` open new tab
 
-<script src="${filename}.js"></script> // This embeds a javascript file to the html page.
+`cmd + s` save
 
-<div id="class-name-for-element"></div> // Create an element
+`cmd + shift + p` for atom: open command view
 
+### Shell Commands
 
-<br> </br> - Line break
+`ls` list files
 
-Javascript
+`mkdir directoryName` make directory
 
-var variableName = "foo" // This is a string
+`rmdir directoryName` remove directory
 
-var variableName = 45 // This is an integer
+`touch filename` create file
 
+`rm filename` remove file
+
+`pwd` print current directory path
+
+`open filename` opens based on extension (html will be opened in the browser)
+
+`cd ..` move back one directory
+
+`cd directoryName` move into directoryName
+
+### HTML
+
+`<start-tag> </start-tag>` you start a 'tag' with `<>` and end it with `</>`
+
+`<script src="filename.js"></script>` this adds a javascript file to the html page
+
+`<div id="class-name-for-element"></div>` create a div with id 'class-name-for-element'
+
+`<br> </br>` - Line break
+
+go to: https://www.w3schools.com/html/html_elements.asp for more examples
+
+### Javascript
+
+`var variableName = 45`  integer
+
+`var variableName = "foo"`  strings surrounded by quote
+
+``` javascript
 var variableName = function () {
-  console.log("This is printed out.")
-  alert("This shows a pop up");
+  console.log("Where is this printed out?");
+  alert("What is a pop up");
 };
+```
 
-// Call a function on a HTML element
+``` javascript
 var variableName = new VRView.Player('#class-name-for-element', {
   width: '100%',
-  height: '100%',
+  height: '100%'
 });
-
-Key bindings
-
-cmd + tab - To switch between apps
-
-cmd + shift + p - To access atom's command palette
-
-cmd + space - To open apps
+```
+Call a function on a HTML element with id "class-name-for-element"
