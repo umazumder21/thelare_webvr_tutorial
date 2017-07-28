@@ -13,3 +13,8 @@
  - go to command line, type in ngrok http 8000 (python server port)
  - tell students to pull out there phone and look at their own sites
  - change the picture
+
+
+## Session 7 - Retro
+  - students should take their bags with them
+  - Sai/Jesus will clean up while Danny does retro so we can get DOLLAH OYSTERS

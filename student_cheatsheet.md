@@ -62,3 +62,7 @@ var variableName = new VRView.Player('#class-name-for-element', {
 });
 ```
 Call a function on a HTML element with id "class-name-for-element"
+
+
+### Python
+`python -m SimpleHTTPServer 3000` start python server, with port 3000
