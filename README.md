@@ -1,4 +1,5 @@
 Serve your public directory using Python!
+`python -m SimpleHTTPServer 8080`
 
 useful links:
   webvr user docs
