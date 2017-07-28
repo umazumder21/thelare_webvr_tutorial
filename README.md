@@ -4,7 +4,9 @@ useful links:
   webvr user docs
   https://developers.google.com/vr/concepts/vrview-web
 
-
-what makes a good photo:
-  aspect ratio (2x1)
-  4096 x 2048
+| dir or file | content description |
+|-----------|---------------------|
+| /lectures | mentor content by day |
+| /public | this is the example code |
+| /feedback | feedback we've received from the students |
+| student_cheatsheet | PLEASE ADD MORE |
