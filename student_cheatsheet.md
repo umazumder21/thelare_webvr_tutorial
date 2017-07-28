@@ -100,3 +100,6 @@ Call a function on a HTML element with id "class-name-for-element"
 
 ### Python
 `python -m SimpleHTTPServer 3000` start python server, with port 3000
+
+### ngrok
+`./ngrok http 3000` port your application is running on
