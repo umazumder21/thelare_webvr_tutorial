@@ -31,7 +31,7 @@
 - show them some functions that we can do with googlecard, should be on the repo
 
 ## Session 4 - photosphere example / crop photos
-- come back as a group and show them a youtube video
+- come back as a group and show them a youtube video [create photosphere](https://www.youtube.com/watch?v=NPs3eIiWRaw)
 - break back and get all their photos
 - everyone create accounts somewhere and upload their own photos, maybe danny can create thelare account
 - add their image to the site
