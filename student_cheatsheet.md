@@ -78,21 +78,21 @@ var functionName = function(parameter1, parameter2) {
 };
 
 // call functionName with 'man' and 'thing'
-functionName("man", "thing"); // returns 'batmanthing'
+functionName('man', 'thing'); // returns 'batmanthing'
 ```
 function, method(parameter1, parameter 2) {}
 
 ``` javascript
 var variableName = function () {
-  console.log("Where is this printed out?");
-  alert("What is a pop up");
+  console.log('Where is this printed out?');
+  alert('What is a pop up');
 };
 ```
 
 ``` javascript
 var variableName = new VRView.Player('#class-name-for-element', {
-  width: "100%",
-  height: "100%"
+  width: '100%',
+  height: '100%'
 });
 ```
 Call a function on a HTML element with id "class-name-for-element"
