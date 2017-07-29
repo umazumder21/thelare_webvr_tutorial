@@ -1,8 +1,8 @@
 ## Start - 15 minutes - Danny house rules
-  - stay within kitchen
+  - stay in cafeteria area
   - reminder where restrooms are
   - pair programming (we're going to be working in pairs, one person is on keyboard, the other is giving suggestions and actively listening/talking)
-  - reminders: ask QUESTIONS, what are pomodoros again?
+  - ask QUESTIONS, what are pomodoros again?
   - lotería, Danny will pull out and define 3 terms right after the start of each session
   - between each session coaches should get on the same page about pacing (Sai is ahead of me 0_0)
 
@@ -21,8 +21,11 @@
 - type in var someString = "someString"; see what happens, play around
 - show what objects are and integers
 - create html file and embed your local javascript file (this should be basic html + local javascript that prints out an alert and a console.log)
+- look at dayOne example in repo, call functions from the developer tools
 
 ## Session 3 - add google cardboard api & go through 3 event/hotspot examples
+- ask students "what is on 'ready' on 'click' on 'error'"
+- define what yaw and pitch is (day 2 example) (yaw = rotate around vertical, pitch horizontal)
 - add googlecard sdk, the point is to google and learn how to find it on their own
 - open developer console and play around with 'sources'
 - show them some functions that we can do with googlecard, should be on the repo

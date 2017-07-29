@@ -1,6 +1,6 @@
 var vrImageOne = vRViewPlayer('#vr-picture-1', {
-    image: 'http://googlevr.github.io/vrview/examples/hotspots/walrus.jpg',
-    is_stereo: true,
+    image: 'assets/jesus-room.jpg',
+    is_stereo: false,
     is_autopan_off: true,
 });
 
