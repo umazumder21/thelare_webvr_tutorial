@@ -19,3 +19,6 @@ useful links:
 
 
 [More examples](http://googlevr.github.io/vrview/examples/gallery/index.html)
+
+Check out
+https://github.com/jsala1990/thelare_webvr_tutorial/blob/master/public/index.html
