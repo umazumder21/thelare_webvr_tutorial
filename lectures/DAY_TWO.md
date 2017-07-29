@@ -45,3 +45,12 @@
 ## Session 7 - Retro
   - students should take their bags with them
   - Sai/Jesus will clean up while Danny does retro so we can get DOLLAH OYSTERS
+
+
+## Alternative - Lets learn git
+
+- create github account
+- create README.md
+- teach "git status", "git add .", "git commit"
+- enable github pages
+- go to your github page and see your helloworld
