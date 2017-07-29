@@ -1,18 +1,17 @@
 ## Start - 15 minutes - Danny house rules
-  - stay in cafeteria area
-  - reminder where restrooms are
-  - pair programming (we're going to be working in pairs, one person is on keyboard, the other is giving suggestions and actively listening/talking)
-  - ask QUESTIONS, what are pomodoros again?
-  - lotería, Danny will pull out and define 3 terms right after the start of each session
-  - between each session coaches should get on the same page about pacing (Sai is ahead of me 0_0)
+- stay in cafeteria area
+- reminder where restrooms are
+- pair programming (we're going to be working in pairs, one person is on keyboard, the other is giving suggestions and actively listening/talking)
+- ask QUESTIONS, what are pomodoros again?
+- lotería, Danny will pull out and define 3 terms right after the start of each session
+- between each session coaches should get on the same page about pacing (Sai is ahead of me 0_0)
 
-## Session 1 - Review cli && Start up local server
- - danny gave cli hw, so review some stuff
- - Walk students through this process (they will not understand)
- - download ngrok (https://ngrok.com/)
- - move ngrok to directory (do this manually via ui, drag/drop)
- - go to command line, type in ngrok http 8000 (python server port)
- - tell students to pull out there phone and look at their own sites
+## Session 1 - Lets learn git
+- create github account
+- create README.md
+- teach "git status", "git add .", "git commit"
+- enable github pages
+- go to your github page and see your helloworld
 
 ## Session 2 - Let's redo some javascript
 - open browser
@@ -33,7 +32,6 @@
 ## Session 4 - photosphere example / crop photos
 - come back as a group and show them a youtube video [create photosphere](https://www.youtube.com/watch?v=NPs3eIiWRaw)
 - break back and get all their photos
-- everyone create accounts somewhere and upload their own photos, maybe danny can create thelare account
 - add their image to the site
 
 ## Session 5 - pair create new project
@@ -43,14 +41,8 @@
 - arrange their photos on the screen using html formatting, maybe Anthony can go around helping people?
 
 ## Session 7 - Retro
-  - students should take their bags with them
-  - Sai/Jesus will clean up while Danny does retro so we can get DOLLAH OYSTERS
+- students should take their bags with them
+- Sai/Jesus will clean up while Danny does retro so we can get DOLLAH OYSTERS
 
 
-## Alternative - Lets learn git
-
-- create github account
-- create README.md
-- teach "git status", "git add .", "git commit"
-- enable github pages
-- go to your github page and see your helloworld
+## Alternative

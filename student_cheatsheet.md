@@ -10,6 +10,8 @@
 
 `cmd + shift + p` for atom: open command view
 
+`cmd + option + i`  open developer tools
+
 ### Shell Commands
 
 `ls` list files
@@ -96,10 +98,3 @@ var variableName = new VRView.Player('#class-name-for-element', {
 });
 ```
 Call a function on a HTML element with id "class-name-for-element"
-
-
-### Python
-`python -m SimpleHTTPServer 3000` start python server, with port 3000
-
-### ngrok
-`./ngrok http 3000` port your application is running on
