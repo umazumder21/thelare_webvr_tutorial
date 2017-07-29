@@ -35,7 +35,7 @@ vrImageOne.on('click', function(event) {
   // if you are a hotspot named 'this-is-another-hotspot', set new picture
   if (event.id == 'this-is-another-hotspot') {
     vrImageOne.setContent({
-      image: 'http://googlevr.github.io/vrview/examples/hotspots/dolphins.jpg',
+      image: 'assets/dolphins.jpg',
       is_stereo: true,
       is_autopan_off: true,
     });
