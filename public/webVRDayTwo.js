@@ -1,10 +1,8 @@
-
 var vrImageOne = vRViewPlayer('#vr-picture-1', {
     image: 'http://googlevr.github.io/vrview/examples/hotspots/walrus.jpg',
     is_stereo: true,
     is_autopan_off: true,
 });
-
 
 // when you're ready
 vrImageOne.on('ready', function(event) {
@@ -45,7 +43,7 @@ vrImageOne.on('click', function(event) {
 });
 
 vrImageOne.on('error', function(event) {
-  console.log("there was an error", event);
+  console.log('there was an error', event);
 });
 
 // every time you load 'vr-picture-1' you will call the function vrViewPlayer
