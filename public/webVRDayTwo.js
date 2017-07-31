@@ -41,6 +41,8 @@ var setOnClickEvents = function(event) {
     });
 
     vrHomePage.on('ready', function(event) {
+      console.log('adding on "ready" events for hotspot-2');
+
       vrHomePage.addHotspot('hotspot-back', {
         pitch: 0,
         yaw: 0,
