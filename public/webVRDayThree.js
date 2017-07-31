@@ -1,3 +1,4 @@
+// explain that this function comes from theLareCommonCode.js
 var vrHomePage = vRViewPlayer('#vr-homepage', {
   image: 'assets/jesus-room.jpg',
   // image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
