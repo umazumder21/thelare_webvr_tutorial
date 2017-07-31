@@ -19,7 +19,7 @@ var setReadyEvents = function(event) {
   // add second hotspot
   vrHomePage.addHotspot('hotspot-2', {
     pitch: 0,
-    yaw: 10,
+    yaw: -20,
     radius: 0.10,
     distance: 1
   });
