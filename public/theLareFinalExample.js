@@ -1,8 +1,12 @@
 var vrHomePage = vRViewPlayer('#vr-jesus-room', {
-  // image: 'assets/jesus-room.jpg',
-  image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
+  image: 'assets/jesus-room.jpg',
+  preview: 'assets/jesus-room.jpg',
+  // image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
   is_stereo: false,
 });
+
+// add VR to page
+window.addEventListener('load', vrHomePage);
 
 var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
@@ -80,6 +84,7 @@ var setOnClickEvents = function(event) {
 
     vrHomePage.setContent({
       image: 'assets/dolphins.jpg',
+      preview: 'assets/dolphins.jpg',
       is_stereo: true
     });
 
@@ -110,6 +115,3 @@ vrHomePage.on('click', function(event) {
 vrHomePage.on('error', function(errorEvent) {
   console.log('there was an error', errorEvent);
 });
-
-// when you finished loading the page, run VR code
-window.addEventListener('load', vrHomePage);
