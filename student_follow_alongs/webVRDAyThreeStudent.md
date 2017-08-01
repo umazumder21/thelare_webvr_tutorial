@@ -1,10 +1,9 @@
-# Add image id to index
-
+# add image id to index
 ```html
   <div id="description-of-the-image"></div>
 ```
 
-# Create theLareCommonCode.js
+# create theLareCommonCode.js
 ``` javascript
   var vRViewPlayer = function(elementIdName, options) {
     console.log('Creating VR View Player');
@@ -12,7 +11,7 @@
   }
 ```
 
-# Add your image to the image id
+# add your image to the image id
 ``` javascript
   var myPicture = vRViewPlayer('#description-of-the-image', {
     image: 'picture-name.jpg',
@@ -20,7 +19,7 @@
   });
 ```
 
-# Add your image to the window when the page is done loading
+# add your image to the window when the page is done loading
 ``` javascript
   window.addEventListener('load', myPicture);
 ```
@@ -38,7 +37,6 @@
 ```
 
 # add event on clicks
-
 ``` javascript
   myPicture.on('click', function(event) {
     console.log('register all click events');
@@ -50,7 +48,6 @@
 ```
 
 # change picture on click
-
 ``` javascript
   myPicture.on('click', function(event) {
     console.log('register all click events');
