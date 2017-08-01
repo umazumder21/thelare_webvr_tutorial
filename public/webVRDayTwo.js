@@ -5,6 +5,9 @@ var vrHomePage = vRViewPlayer('#vr-homepage', {
   is_autopan_off: true,
 });
 
+// add VR to page
+window.addEventListener('load', vrHomePage);
+
 // create function setReady Events
 var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
@@ -71,10 +74,3 @@ vrHomePage.on('click', function(event) {
 vrHomePage.on('error', function(errorEvent) {
   console.log('there was an error', errorEvent);
 });
-
-var onGetPosition = function(coordinates) {
-  console.log(coordinates);
-}
-
-// when you finished loading the page, run VR code
-window.addEventListener('load', vrHomePage);
