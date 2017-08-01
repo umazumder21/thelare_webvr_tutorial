@@ -1,6 +1,6 @@
 var vrHomePage = vRViewPlayer('#vr-homepage', {
-  // image: 'assets/jesus-room.jpg',
-  image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
+  image: 'assets/jesus-room.jpg',
+  // image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
   is_stereo: false,
   is_autopan_off: true,
 });
@@ -39,8 +39,8 @@ var setOnClickEvents = function(event) {
   // if you are a hotspot named 'hotspot-2', set new picture
   if (event.id == 'hotspot-2') {
     vrHomePage.setContent({
-      // image: 'assets/dolphins.jpg',
-      image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/dolphins.jpg',
+      image: 'assets/dolphins.jpg',
+      // image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/dolphins.jpg',
       is_stereo: true,
       is_autopan_off: true,
     });
