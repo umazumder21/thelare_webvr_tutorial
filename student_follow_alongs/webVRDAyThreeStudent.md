@@ -1,4 +1,4 @@
-# In index.html - add your image id
+# Add image id to index
 
 ```html
   <div id="description-of-the-image"></div>
@@ -6,13 +6,16 @@
 
 # Create theLareCommonCode.js
 ``` javascript
-
+  var vRViewPlayer = function(elementIdName, options) {
+    console.log('Creating VR View Player');
+    return new VRView.Player(elementIdName, options);
+  }
 ```
 
 # Add your image to the image id
 ``` javascript
   var myPicture = vRViewPlayer('#description-of-the-image', {
-    image: 'pictureName.jpg',
+    image: 'picture-name.jpg',
     is_stereo: false
   });
 ```
