@@ -64,7 +64,7 @@ var setOnClickEvents = function(event) {
   }
 
   if (event.id == 'drawing-aquarium') {
-    alert('Better Off Ted keeps me connected to the corporate world');
+    alert('Come checkout my imagination!!');
   }
 
   if (event.id == 'hydrating') {
