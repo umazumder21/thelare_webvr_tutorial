@@ -42,7 +42,7 @@
     console.log('register all click events');
 
     if (event.id == 'creating-hotspot-1') {
-      alert('i bEen clIKed!');
+      theLareAlert("I been clicked")
     }
   });
 ```
