@@ -1,6 +1,6 @@
 var vrHomePage = vRViewPlayer('#vr-jesus-room', {
-  image: 'assets/jesus-room.jpg',
-   preview: 'assets/jesus-room.jpg',
+  image: 'assets/guillermo-room.jpg',
+   preview: 'assets/guillermo-room.jpg',
 //   image: 'http://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
   is_stereo: false,
 });
