@@ -1,7 +1,7 @@
 var vrHomePage = vRViewPlayer('#vr-jesus-room', {
-  image: 'assets/jesus-room.jpg',
-  preview: 'assets/jesus-room.jpg',
-  // image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
+  //image: 'assets/jesus-room.jpg',
+  // preview: 'assets/jesus-room.jpg',
+   image: 'http://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/jesus-room.jpg',
   is_stereo: false,
 });
 
@@ -56,27 +56,27 @@ var setReadyEvents = function(event) {
 
 var setOnClickEvents = function(event) {
   if (event.id == 'reading-spot') {
-    alert('I love to read about bada** women!');
+    theLareAlert("This is my reading spot")
   }
 
   if (event.id == 'self-reflect') {
-    alert('Sometimes I self reflect to improve myself');
+    theLareAlert('Sometimes I self reflect to improve myself');
   }
 
   if (event.id == 'better-off-ted') {
-    alert('Better Off Ted keeps me connected to the corporate world');
+    theLareAlert('Better Off Ted keeps me connected to the corporate world');
   }
 
   if (event.id == 'drawing-aquarium') {
-    alert('Come checkout my imagination!!');
+    theLareAlert('Come checkout my imagination!!');
   }
 
   if (event.id == 'hydrating') {
-    alert('It is important for me to hydrate as a grown up');
+    theLareAlert('You have to hydrate as an adult!');
   }
 
   if (event.id == 'half-cleaning') {
-    alert('I like to half clean after I cook');
+    theLareAlert('I like to half clean after I cook');
   }
 
   if (event.id == 'drawing-aquarium') {
