@@ -85,7 +85,7 @@ var setOnClickEvents = function(event) {
     vrHomePage.setContent({
       image: 'assets/guillermo-room.jpg',
       preview: 'assets/guillermo-room.jpg',
-      is_stereo: true
+      is_stereo: false
     });
 
     vrHomePage.addHotspot('hotspot-back', {
