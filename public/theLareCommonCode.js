@@ -4,7 +4,7 @@ var vRViewPlayer = function(elementIdName, options) {
 }
 
 var theLareAlert = function(alertText) {
-    document.getElementById("vr-jesus-room").innerHTML = alertText
+    document.getElementById("vr-jesus-room").contentWindow.alert()
     setTimeout(function() {
         location.reload();
     }, 2000 );
