@@ -32,12 +32,12 @@
 ```
 # Lets add our javascript!
 ``` javascript
-var vRViewPlayer = function(elementIdName, options) {
+var VRViewPlayer = function(elementIdName, options) {
   console.log('Creating VR View Player');
   return new VRView.Player(elementIdName, options);
 }
 
-var drawingRoom = vRViewPlayer('#first-vr-example', {
+var drawingRoom = VRViewPlayer('#first-vr-example', {
   // image: 'assets/dolphins.jpg',
   image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/dolphins.jpg',
   is_stereo: true,
