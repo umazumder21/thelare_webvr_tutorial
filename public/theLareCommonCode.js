@@ -13,7 +13,7 @@ window.addEventListener('load', drawingRoom);
 
 var roomDrawing = vRViewPlayer('#second-vr-example', {
   // image: 'assets/guillermo-room.jpg',
-  image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/guillermo-room.jpg',
+  image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/hand-drawn-room.jpg',
   is_stereo: false,
 });
 
