@@ -50,6 +50,13 @@ window.addEventListener('load', drawingRoom);
 Look at assets/example-rectangular-room.png
 
 # Take a picture and upload!!
-[TODO: add here  https://pasteboard.co/]
+
+Take a picture using your phone, and then upload the picture to Pasteboard.
+
+- Visit https://pasteboard.co/
+- Tap Upload, allow permissions to look at Images, and then upload. 
+- You'll see an ad and then see your uploaded image at a URL - https://pasteboard.co/something.jpg
+- Copy the URL over to your laptop, and change the URL to insert "/images/" at the beginning of the URL and add "/download" at the end of the URL - https://pasteboard.co/images/something.jpg/download
+- Use that URL when you add your picture to this project
 
 # Edit ./theLareCommonCode.js to use your own photo!
