@@ -1,37 +1,3 @@
-### Key bindings
-
-`cmd + space` open spotlight
-
-`cmd + tab` switch between apps
-
-`cmd + T` open new tab
-
-`cmd + s` save
-
-`cmd + shift + p` for atom: open command view
-
-`cmd + option + i`  open developer tools
-
-### Shell Commands
-
-`ls` list files
-
-`mkdir directoryName` make directory
-
-`rmdir directoryName` remove directory
-
-`touch filename` create file
-
-`rm filename` remove file
-
-`pwd` print current directory path
-
-`open filename` opens based on extension (html will be opened in the browser)
-
-`cd ..` move back one directory
-
-`cd directoryName` move into directoryName
-
 ### HTML
 
 `<start-tag> </start-tag>` you start a 'tag' with `<>` and end it with `</>`

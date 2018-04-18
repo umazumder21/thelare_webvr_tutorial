@@ -3,9 +3,26 @@ var vRViewPlayer = function(elementIdName, options) {
   return new VRView.Player(elementIdName, options);
 }
 
-var theLareAlert = function(alertText) {
-    document.getElementById("vr-jesus-room").contentWindow.alert()
-    setTimeout(function() {
-        location.reload();
-    }, 2000 );
-}
+var drawingRoom = vRViewPlayer('#first-vr-example', {
+  // image: 'assets/dolphins.jpg',
+  image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/dolphins.jpg',
+  is_stereo: true,
+});
+
+window.addEventListener('load', drawingRoom);
+
+var roomDrawing = vRViewPlayer('#second-vr-example', {
+  // image: 'assets/guillermo-room.jpg',
+  image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/guillermo-room.jpg',
+  is_stereo: false,
+});
+
+window.addEventListener('load', roomDrawing);
+
+var boxRoomTemplate = vRViewPlayer('#third-vr-example', {
+  // image: 'assets/example-rectangular-room.png',
+  image: 'https://raw.githubusercontent.com/jsala1990/thelare_webvr_tutorial/master/public/assets/example-rectangular-room.png',
+  is_stereo: false,
+});
+
+window.addEventListener('load', boxRoomTemplate);
